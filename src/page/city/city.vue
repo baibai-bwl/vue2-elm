@@ -11,7 +11,7 @@
                 <input type="submit" name="submit" class="city_submit input_style" @click='postpois' value="提交">
             </div>
         </form>
-        <header v-if="historytitle" class="pois_search_history">搜索历史</header>
+        <header v-if="historytitle" class="pois_search_history">搜索历史改</header>
         <ul class="getpois_ul">
             <li v-for="(item, index) in placelist" @click='nextpage(index, item.geohash)' :key="index">
                 <h4 class="pois_name ellipsis">{{item.name}}</h4>
